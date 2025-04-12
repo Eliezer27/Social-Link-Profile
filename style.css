@@ -1,0 +1,61 @@
+    @font-face {
+        font-family:Inter;
+        src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    }
+body{
+    margin: 0;
+    background-color:hsl(0, 0%, 8%);
+    font-size: 14px;
+    font-family: Inter;
+}
+.card-content{
+    width: 300px;
+    height: 510px;
+    margin: auto;
+    margin-top: 80px;
+    background: red;
+    border-radius: 20px;
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    color: #fff;
+    padding-bottom: 0;
+    padding: 20px 10px;
+}
+.img--card{
+    padding-top:20px;
+    width: 100px;
+    border-radius: 50%;
+}
+.name--card{
+    margin: 0;
+}
+.text--subtitle{
+    line-height: 0;
+    color: hsl(75, 94%, 57%);
+}
+.text--subtitle2{
+    padding-top: 10px;
+}
+.buttons:hover{
+    background: hsl(75, 94%, 57%);
+}
+.buttons{
+    width: 272px;
+    height:27px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px;
+
+    border-radius: 7px;
+    background-color: hsl(0, 0%, 20%);
+}
+.button{
+    display: block;
+    position: relative;
+    width: 100%;
+    padding-top: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
